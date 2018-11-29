@@ -7,6 +7,11 @@ class Numeros3 extends Numeros2{
 		$this->setN1($n1);
 		$this->setN2($n2);
 	}
+
+	public function dividir(){
+		return $this->getN1() / $this->getN2();
+	}
+	
 }
 ?>
 		
